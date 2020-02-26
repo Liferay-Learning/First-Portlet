@@ -1,0 +1,110 @@
+
+@import url(studentSearch.css);
+
+.student_filter {
+	font-size: 17px;
+	float: left;
+	color: #00CAFF;
+	font-weight: 400;
+}
+
+h2.results_filter_label {
+	font-size: 1.6em;
+	color: #00CAFF;
+	margin-top: 95px;
+}
+
+.student_type_options {
+	display: none;
+	color: #00CAFF;
+}
+
+div.student_result_img {
+	margin-top: 10px;
+}
+
+ul.search_Result_ul {
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+ul#dashboard-tabs li {
+	display: inline;
+	margin: 5px 20px;
+	padding: 5px 15px;
+	font-size: 16px;
+}
+
+ul#dashboard-tabs {
+	list-style-type: none;
+	margin: 0;
+	border-bottom: 1px #00caff solid;
+	padding: 7px 80px;
+}
+
+ul#dashboard-tabs a {
+	color: #00CAFF;
+}
+
+li.result_ {
+	border-bottom: white 1px solid;
+	height: 100px;
+	margin: 10px;
+}
+
+select.dropdown_ {
+	width: 220px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+input.text_box {
+	width: 180px;
+	float: left;
+	margin: 5px 0 0 0 !important;
+	border-radius: 12px 0 0 12px !important;
+	padding: 4px 10px !important;
+}
+
+input.go_btn {
+	width: 40px !important;
+	margin: 5px 0 0 0;
+	height: 30px;
+	border-radius: 0px 12px 12px 0px;
+	background-color: #00CAFF;
+	color: white;
+	font-size: large;
+	padding: 4px;
+}
+
+hr.h_line {
+	margin: 5px 0 10px 0;
+}
+
+.circle_icon {
+	height: 50px;
+	width: 50px !important;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	border: 1px #D7D2CB;
+	border-style: solid;
+	background-color: #00CAFF;
+}
+
+.initials {
+	position: relative;
+	top: 13px;
+	color: #ffff;
+	font-weight: bold;
+}
+
+div.filter_line {
+	border-top: #00caff 1px solid;
+	padding: 5px 0px;
+}
+
+div.emi_calculator td{
+	padding:0px 10px;
+}

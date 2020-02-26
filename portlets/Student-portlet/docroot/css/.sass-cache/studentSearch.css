@@ -1,0 +1,26 @@
+input#search_text {
+  height: 30px;
+  width: 70%;
+  border-radius: 13px 0 0 13px;
+  padding: 4px 10px;
+  margin: 0; }
+
+input#search_icon {
+  width: 20%;
+  height: 40px;
+  margin: 0px 0px 0px -3px;
+  padding: 0px;
+  border-radius: 0px 13px 13px 0px;
+  background-color: #00CAFF;
+  color: white;
+  font-size: large; }
+
+div#search_heading {
+  font-size: x-large;
+  color: #00CAFF;
+  margin-bottom: 15px; }
+
+div#search_box_edit {
+  margin: 0px 200px;
+  width: auto; }
+
