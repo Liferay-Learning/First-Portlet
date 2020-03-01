@@ -1,7 +1,10 @@
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
+<%@ taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme"%>
 
 <portlet:defineObjects />
-
+<liferay-theme:defineObjects />
+<%-- <link rel="stylesheet" href="<%=request.getContextPath()%>/css/studentSearch.css"/> 
+We can include additional css file if the css is not defined in the liferay-portlet.xml --%>
 <portlet:actionURL var="submitSearchKeyword" name="searchActionMethod"></portlet:actionURL>
 
 <div id="search_heading" class="Search-heading">Search</div>
